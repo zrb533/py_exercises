@@ -11,21 +11,24 @@ from common.common import *
 
 class TestGoodsSelect(unittest.TestCase):
 
-
     def setUp(self):
         self.verificationErrors = []
-        self.url = "http://jadmins.beta.orderplus.com/goods/select"
-        self.header = {"Cookie": "SESSION=e62c7a8e-116d-4d79-914b-23fd5f213013", "Content-Type": "application/json"}
-        self.request_body = {"pageSize": 10}
+        self.excel_path = '/Users/zhanglinquan/PycharmProjects/py_exercises/data/excel/goods_data_source.xlsx'
+        self.pe = parseExcel(self.excel_path)
+        self.sheet = self.pe.set_sheet_by_name('goods_select')
+        self.excel_url = self.sheet.cell(2,1).value
+        self.excel_headers = self.sheet.cell(2,2).value
+        self.excel_request_body = self.sheet.cell(2,3).value
 
     def test_goods_select(self):
         try:
-            self.response = requests.post(url=self.url, data=json.dumps(self.request_body), headers=self.header)
+            self.response = requests.post(self.excel_url, json=json.loads(self.excel_request_body),
+                                          headers=json.loads(self.excel_headers))
             dict_json_response = self.response.json()
             response_code = dict_json_response['code']
             self.assertEqual(response_code, 1)
         except (IOError, TypeError) as error:
-            log_path = "..\\goods_select_exception.log"
+            log_path = "../goods_select_exception.log"
             logs(error, log_path)
 
     def tearDown(self):

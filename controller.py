@@ -15,11 +15,11 @@ try:
 
 except (IOError,ModuleNotFoundError) as error:
 
-    log_path = '..\\exception.log'
+    log_path = '../exception.log'
     logs(error, log_path)
 
 # 生成测试结果
-filename = 'c:\\exercises\\py_exercises\\result\\' + "py_exercises" + "_" + "result.html"
+filename = '/Users/zhanglinquan/PycharmProjects/py_exercises/result/' + "py_exercises" + "_" + "result.html"
 fp = open(filename, 'wb')
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='py_exercises_report', description='py_exercises_report_description')
 runner.run(suite)
