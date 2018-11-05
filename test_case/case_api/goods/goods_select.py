@@ -28,7 +28,7 @@ class TestGoodsSelect(unittest.TestCase):
             dict_json_response = self.response.json()
             response_code = dict_json_response['code']
             self.assertEqual(response_code, 1)
-        except (IOError, TypeError) as error:
+        except (IOError, TypeError, UnicodeError) as error:
             log_path = "../goods_select_exception.log"
             logs(error, log_path)
 

@@ -1,0 +1,1 @@
+时间：2018-11-03 12:00:06     错误类型：<class 'TypeError'>     错误内容：Object of type 'Cell' is not JSON serializable     /Users/zhanglinquan/PycharmProjects/py_exercises/common/common.py
