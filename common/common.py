@@ -43,7 +43,3 @@ class parseExcel(object):
     # 通过行号和列号获取指定的单元格的值
     def get_cell_content(self, row_no, col_no):
         return self.sheet.cell(row=row_no, column=col_no).value
-
-
-
-

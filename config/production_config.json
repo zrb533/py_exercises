@@ -1,0 +1,53 @@
+{
+  "email":{
+    "comment":"发送邮件配置",
+
+    "sendfrom":"colin.zhang@orderplus.com",
+    "sendfrompwd":"123456",
+    "sendto":"zlqaiwss@163.com"
+  },
+
+  "mysql":{
+    "comment":"公共管理平台数据库连接",
+
+    "sqldb":"172.30.10.32",
+    "port":3306,
+    "user":"root",
+    "passwd":"12354",
+    "db":"orderplus-db"
+  },
+
+  "url":{
+    "comment":"所有url",
+
+    "public_management_platform_login_url":"http://admins.orderplus.com/#/user/login",
+    "public_management_api_url":"http://jadmins.orderplus.com",
+
+    "selaros_home_url":"https://www.selaros.com/",
+    "callabuy_home_url":"https://www.callabuy.com/"
+  },
+
+  "path":{
+    "comment":"相关的物理路径，包括数据，测试相关的路径",
+
+    "data_path":"/Users/zhanglinquan/Desktop/opec/data",
+    "data_excel_path":"/Users/zhanglinquan/Desktop/opec/data/excel",
+    "data_txt_path":"/Users/zhanglinquan/Desktop/opec/data/txt",
+
+    "test_path":"/Users/zhanglinquan/Desktop/opec/test",
+    "test_result_path":"/Users/zhanglinquan/Desktop/opec/testresult",
+    "config_path":"/Users/zhanglinquan/Desktop/opec/config",
+
+    "public_management_api_path":"/Users/zhanglinquan/Desktop/opec/public_management_api",
+    "public_management_platform_path":"/Users/zhanglinquan/Desktop/opec/public_management_platform",
+    "ecommerce_cloud_front_path":"/Users/zhanglinquan/Desktop/opec/ecommerce_cloud_front"
+  },
+
+  "headers99":{
+    "comment":"生产环境使用headers99绕过验证码，SESSION每天手动获取一次，不同站点Site-Id不同，需要手动更新",
+
+    "Cookie": "SESSION=72d98151-a631-4391-b268-92ad51a8fc76",
+    "Accept": "application/json",
+    "Site-Id": "99"
+  }
+}

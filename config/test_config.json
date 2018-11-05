@@ -1,0 +1,54 @@
+{
+  "email":{
+    "comment":"发送邮件配置",
+
+    "sendfrom":"colin.zhang@orderplus.com",
+    "sendfrompwd":"123456",
+    "sendto":"zlqaiwss@163.com"
+  },
+
+  "mysql":{
+    "comment":"公共管理平台数据库连接",
+
+    "sqldb":"172.30.10.32",
+    "port":3306,
+    "user":"root",
+    "passwd":"12354",
+    "db":"orderplus-db"
+  },
+
+  "url":{
+    "comment":"所有url",
+
+    "public_management_platform_login_url":"http://admins.beta.orderplus.com/#/user/login",
+    "public_management_api_url":"http://jadmins.beta.orderplus.com/",
+
+    "selaros_home_url":"http://www.beta.selaros.com/"
+  },
+
+  "path":{
+    "comment":"框架相关的物理路径，包括数据，测试相关的路径",
+
+    "data_path":"/Users/zhanglinquan/Desktop/opec/data",
+    "data_excel_path":"/Users/zhanglinquan/Desktop/opec/data/excel",
+    "data_txt_path":"/Users/zhanglinquan/Desktop/opec/data/txt",
+
+    "test_path":"/Users/zhanglinquan/Desktop/opec/test",
+    "test_result_path":"/Users/zhanglinquan/Desktop/opec/testresult",
+    "config_path":"/Users/zhanglinquan/Desktop/opec/config",
+
+    "public_management_api_path":"/Users/zhanglinquan/Desktop/opec/public_management_api",
+    "public_management_platform_path":"/Users/zhanglinquan/Desktop/opec/public_management_platform",
+    "ecommerce_cloud_front_path":"/Users/zhanglinquan/Desktop/opec/ecommerce_cloud_front"
+  },
+
+  "logindata":{
+    "comment":"公共管理平台测试环境登陆账户，8888为万能验证码",
+
+    "email":"admin@orderplus.com",
+    "password":"admin",
+    "authcode":"8888",
+    "remember":"true"
+  }
+
+}

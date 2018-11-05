@@ -1,0 +1,6 @@
+{
+  "environment": {
+    "comment":"on==production，off==test",
+    "switch":"off"
+  }
+}
