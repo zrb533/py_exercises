@@ -15,7 +15,7 @@ class TestGoodsSelect(unittest.TestCase):
     def setUp(self):
         self.verificationErrors = []
         self.excel_path = '/Users/zhanglinquan/PycharmProjects/py_exercises/data/excel_api/goods/data_goods.xlsx'
-        self.pe = parseExcel(self.excel_path)
+        self.pe = ParseExcel(self.excel_path)
         self.sheet = self.pe.set_sheet_by_name('goods_select')
         self.excel_url = self.sheet.cell(2,1).value
         self.excel_headers = self.sheet.cell(2,2).value
@@ -28,6 +28,7 @@ class TestGoodsSelect(unittest.TestCase):
             dict_json_response = self.response.json()
             response_code = dict_json_response['code']
             self.assertEqual(response_code, 1)
+            return dict_json_response
         except (IOError, TypeError, UnicodeError) as error:
             log_path = "../goods_select_exception.log"
             logs(error, log_path)

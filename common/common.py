@@ -12,22 +12,23 @@ def logs(error,log_path):
     file.write(error + '\n')
     file.close()
 
-class parseExcel(object):
+
+class ParseExcel(object):
 
 
-    def __init__(self,excelPath):
-        self.excelPath = excelPath
-        self.workbook = load_workbook(self.excelPath)
+    def __init__(self, excelpath):
+        self.excelpath = excelpath
+        self.workbook = load_workbook(self.excelpath)
         self.sheet = self.workbook.active
 
     # 使用index来获取当前操作的sheet
-    def set_sheet_by_index(self,sheet_index):
+    def set_sheet_by_index(self, sheet_index):
         sheet_name = self.workbook.get_sheet_names()[sheet_index]
         self.sheet = self.workbook.get_sheet_by_name(sheet_name)
         return self.sheet
 
     # 使用sheetname来获取当前操作的sheet
-    def set_sheet_by_name(self,sheet_name):
+    def set_sheet_by_name(self, sheet_name):
         sheet = self.workbook[sheet_name]
         self.sheet = sheet
         return self.sheet

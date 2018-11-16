@@ -3,7 +3,7 @@ import doctest
 import HTMLTestRunner
 from common.common import *
 import unittest
-
+from common.ui_common import ui_login
 try:
     suite = doctest.DocTestSuite()
     # goods

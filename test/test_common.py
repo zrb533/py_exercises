@@ -1,7 +1,7 @@
 from common.common import *
 
 excel_path = '/Users/zhanglinquan/PycharmProjects/py_exercises/data/excel_api/login.xlsx'
-pe = parseExcel(excel_path)
+pe = ParseExcel(excel_path)
 sheet1 = pe.set_sheet_by_name("goods_select")
 sheet2 = pe.set_sheet_by_name("goods_detail")
 print(sheet1)

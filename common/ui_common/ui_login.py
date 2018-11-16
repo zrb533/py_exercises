@@ -11,7 +11,7 @@ class TestUILogin(unittest.TestCase):
     def setUp(self):
         self.verificationErrors = []
         self.login_data_excel_path = "/Users/zhanglinquan/PycharmProjects/py_exercises/data/excel_ui/login/login.xlsx"
-        self.pe = parseExcel(self.login_data_excel_path)
+        self.pe = ParseExcel(self.login_data_excel_path)
         self.sheet = self.pe.set_sheet_by_name("login")
         self.url = self.sheet.cell(2, 1).value
         self.email = self.sheet.cell(2, 2).value
