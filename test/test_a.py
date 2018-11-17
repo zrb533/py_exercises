@@ -1,6 +1,7 @@
 # -*-coding:utf-8-*- #
 import re
 """
+# 从sql文件中获取某些issue_status的id
 1. sql中内容保存成txt文件，然后从txt文件中获取，结果为一个字符串
 2. 字符串拆分，一条数据一个字符串
 """

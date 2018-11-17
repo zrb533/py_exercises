@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9752f8-69cf-422e-a14d-aa2aa9855a83" name="Default Changelist" comment="config add">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zhanglinquan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_result/py_exercises_case_api_result.html" afterDir="false" />
+    <list default="true" id="1f9752f8-69cf-422e-a14d-aa2aa9855a83" name="Default Changelist" comment="issue数据处理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/ui_common/ui_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/ui_common/ui_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/excel_api/goods/data_goods.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/excel_api/goods/data_goods.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/case_api/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/case_api/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/case_api/goods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/case_api/goods/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/case_api/goods/goods_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/case_api/goods/goods_select.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/case_ui/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/case_ui/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/case_ui/login/ui_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/case_ui/login/ui_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_result/py_exercises_case_ui_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_result/py_exercises_case_ui_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_a.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,6 +18,7 @@
     <SUITE FILE_PATH="coverage/py_exercises$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1541131095918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/py_exercises$test_common.coverage" NAME="test_common Coverage Results" MODIFIED="1541217385673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/py_exercises$test_b.coverage" NAME="test_b Coverage Results" MODIFIED="1542359901965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/py_exercises$code_de_en.coverage" NAME="code_de_en Coverage Results" MODIFIED="1542372376113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/py_exercises$test22.coverage" NAME="test22 Coverage Results" MODIFIED="1541136959978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/py_exercises$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1541144205400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages" />
     <SUITE FILE_PATH="coverage/py_exercises$Unittests_for_ui_login_TestUILogin.coverage" NAME="Unittests for ui_login.TestUILogin Coverage Results" MODIFIED="1541484354574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/case_ui/login" />
@@ -101,20 +90,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="test_a.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_a.py">
+      <file leaf-file-name="test_common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="228">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_common.py">
+      <file leaf-file-name="test_a.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="89" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="89" />
+            <state relative-caret-position="499">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -219,6 +208,7 @@
         <option value="$PROJECT_DIR$/test/test1.py" />
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/test/test_b.py" />
+        <option value="$PROJECT_DIR$/test/code_de_en.py" />
         <option value="$PROJECT_DIR$/test/test_a.py" />
       </list>
     </option>
@@ -232,7 +222,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1002" />
@@ -312,7 +302,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_a">
+  <component name="RunManager" selected="Python.code_de_en">
+    <configuration name="code_de_en" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/code_de_en.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="codecs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,25 +355,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_exercises" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,18 +400,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.test_a" />
       <item itemvalue="Python.codecs" />
       <item itemvalue="Python.test_b" />
+      <item itemvalue="Python.code_de_en" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.code_de_en" />
         <item itemvalue="Python.test_a" />
         <item itemvalue="Python.test_b" />
         <item itemvalue="Python.codecs" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541398436467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="issue数据处理">
+      <created>1542364952966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542364952966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -500,7 +497,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1002" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32968238" />
@@ -536,7 +534,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add data" />
     <MESSAGE value="config add" />
-    <option name="LAST_COMMIT_MESSAGE" value="config add" />
+    <MESSAGE value="issue数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="issue数据处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,9 +553,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_case/case_api/goods/goods_detail.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/case_api/goods/goods_select.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -786,31 +782,20 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_b.py" />
+    <entry file="file://$PROJECT_DIR$/test/test.py" />
+    <entry file="file://$PROJECT_DIR$/test/code_de_en.py" />
     <entry file="file://$PROJECT_DIR$/test/test_common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="89" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="89" />
+        <state relative-caret-position="228">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="499">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
